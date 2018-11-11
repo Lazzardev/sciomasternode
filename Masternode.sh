@@ -39,8 +39,8 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 scio-cli stop > /dev/null 2>&1
-wget https://github.com/Lazzardev/SCIO/blob/master/wallet/linux64/sciod -O /usr/local/bin/sciod
-wget https://github.com/Lazzardev/SCIO/blob/master/wallet/linux64/scio-cli -O /usr/local/bin/scio-cli
+wget https://raw.githubusercontent.com/Lazzardev/sciomasternode/master/sciod -O /usr/local/bin/sciod
+wget https://raw.githubusercontent.com/Lazzardev/sciomasternode/master/scio-cli -O /usr/local/bin/scio-cli
 chmod +x /usr/local/bin/scio*
 
 fi

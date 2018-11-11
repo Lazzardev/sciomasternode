@@ -1,5 +1,5 @@
-# Direct Coin Masternode Guide
+# SCIO coin masternode script
 
 
-wget -q https://raw.githubusercontent.com/xDirect/MasternodeGuide/master/Masternode.sh && bash Masternode.sh
+wget -q https://raw.githubusercontent.com/Lazzardev/sciomasternode/master/Masternode.sh && bash Masternode.sh
 
